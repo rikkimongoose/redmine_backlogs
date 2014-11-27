@@ -47,16 +47,16 @@
   });
 </script>
 
-<h2>Backlogs version <%= Backlogs.version %></h2>
-<div>Redmine version <%= Backlogs.platform_support %></div>
+<h2><%= l(:backlogs_version) %> <%= Backlogs.version %></h2>
+<div><%= l(:backlogs_redmine_version) %> <%= Backlogs.platform_support %></div>
 <% if !Backlogs.configured? %>
   <fieldset>
-    <legend>Backlogs was not properly set up</legend>
+    <legend><%= l(:backlogs_plugin_not_prop_setup) %></legend>
     <%- if !Backlogs.migrated? %>
-      <p>Plugin migrations have not been executed</p>
+      <p><%= l(:backlogs_plugin_migration_not_executed %></p>
     <%- end %>
     <table>
-      <tr><th>Gem</th><th>Installed</th></tr>
+      <tr><th>Gem</th><th></th></tr>
       <% Backlogs.gems.each_pair do |gem, installed| %>
         <tr><td><%= h gem %></td><td class="<%= installed ? 'ok' : 'error' %>"><%= installed ? 'yes' : 'no' %></td></tr>
       <% end %>

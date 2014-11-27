@@ -2,12 +2,16 @@
 ru:
   backlogs_active: активный
   backlogs_any: любой
+  backlogs_redmine_version: "Версия Redmine"
+  backlogs_version: "Версия Backlogs"
+  backlogs_plugin_not_prop_setup: "Плагин не установлен до конца"
+  backlogs_plugin_migration_not_executed: "Не выполнены миграции плагина"
   backlogs_auto_assign_task: "Автоназначить задачу текущему пользователю"
   backlogs_burndown_print_height: "Высота графика выполнения"
   backlogs_burndown_print_width: "Ширина графика выполнения"
   backlogs_burndown_settings: "Настройки графика выполнения"
   backlogs_card_specification: "Тип заголовков для печати карт"
-  backlogs_default_story_tracker: "Default story tracker"
+  backlogs_default_story_tracker: "Трекеры по умолчанию"
   backlogs_general_settings: "Общие настройки"
   backlogs_impediment: Задержка
   backlogs_include_sat_and_sun: "Включать субботу и воскресенье в график выполнения"
@@ -18,17 +22,17 @@ ru:
   backlogs_pblpage_settings: "Настройка страницы бэклога продукта"
   backlogs_points_burn_direction: "Баллов выполнено/осталось"
   backlogs_product_backlog: "Бэклог продукта"
-  backlogs_scrum_stats_menu_application: "Application menu"
-  backlogs_scrum_stats_menu_none: None
-  backlogs_scrum_stats_menu_position: "Position of Scrum Statistics menu"
-  backlogs_scrum_stats_menu_top: "Top menu"
+  backlogs_scrum_stats_menu_application: "Меню приложения"
+  backlogs_scrum_stats_menu_none: Нет
+  backlogs_scrum_stats_menu_position: "Позиция меню статистики SCRUM"
+  backlogs_scrum_stats_menu_top: "Верхнее меню"
   backlogs_set_start_and_duedates_from_sprint: "Установить дату начала и окончания истории из спринта"
   backlogs_sharing_enabled: "Разрешить совместное использование"
   backlogs_sharing_new_sprint: "Использовать совместно новые спринты"
   backlogs_sharing_new_sprint_explanation: "Несмотря на то, что все возможные опции доступны здесь, новые спринты могут совместно использоваться только в соответствии с правами пользователей и разрешениями проектов. Используемые совместно на уровне системы спринты могут быть созданы только админами. Спринты, используемые совместно на уровне иерархии или дерева требуют разрешений на проекте верхнего уровня."
   backlogs_sharing_support: "Совместное использование бэклогов"
   backlogs_show_in_scrum_stats: "Показывать проект в Скрам-статистике"
-  backlogs_show_priority: "Show task priority on taskboard"
+  backlogs_show_priority: "Показывать приоритетность тасков"
   backlogs_show_redmine_std_header: "Показывать заголовок трекера в бэклогах"
   backlogs_show_stories_from_subprojects_in_backlog: "Показывать в бэклоге истории из подпроектов"
   backlogs_sprint_card_settings: "Печать карт спринта"
@@ -65,7 +69,7 @@ ru:
   backlogs_story_follow_task_status_close: "Закрывать когда все задачи закрыты"
   backlogs_story_follow_task_status_loose: "Менять вслед за средним прогрессом задач"
   backlogs_story_follow_task_status_nil: Отключено
-  backlogs_story_follows_task_loose_explanation: "Note: all issue statuses require a valid %done between 0 and 100."
+  backlogs_story_follows_task_loose_explanation: "Внимание: все задачи по статусам требуют % выполнения от 0 до 100."
   backlogs_story_follows_task_status: "История наследует статус задач"
   backlogs_story_settings: "Настройки историй и задач"
   backlogs_story_tracker: "Трекеры историй"
@@ -92,22 +96,22 @@ ru:
   field_base: ""
   field_blocks: Блокировки
   field_name: Название
-  field_planned_velocity: "Planned velocity"
+  field_planned_velocity: "Запленированная скорость"
   field_position: Положение
   field_priority: Приоритет
   field_project_id: "Идентификатор проекта"
   field_release: Релиз
   field_release_end_date: "Дата окончания релиза"
-  field_release_relationship: "Release relationship"
+  field_release_relationship: "Отношения реализации"
   field_release_start_date: "Дата начала релиза"
   field_remaining_hours: "Осталось (часов)"
   field_story_points: "Оценка истории (в баллах)"
   field_subject: Тема
-  field_task_color: "Task color"
-  field_time_entry_comments: "Time Entry Comments"
-  field_time_entry_hours: "Time Entry Hours"
-  field_time_entry_spend_on: "Time Entry Spend on"
-  field_time_entry_user_id: "Time Entry User Id"
+  field_task_color: "Цвет задания"
+  field_time_entry_comments: "Комментарий к временной записи"
+  field_time_entry_hours: "Часов в временной записи"
+  field_time_entry_spend_on: "Временная запись потрачена на"
+  field_time_entry_user_id: "Id пользователя временной записи"
   field_tracker_id: "Идентификатор трекера"
   field_velocity_based_estimate: "Оценка на основе скорости"
   label_all_tasks: "Все задачи"
@@ -152,15 +156,15 @@ ru:
   label_release: Релиз
   label_release_end_date: "Дата окончания релиза"
   label_release_new: "Новый релиз"
-  label_release_planned_velocity_end_date: "Planned velocity estimated end date"
+  label_release_planned_velocity_end_date: "Дата завершёния при оценённой скорости"
   label_release_planning: "Планирование релиза"
   label_release_plural: Релизы
-  label_release_relationship_added: Added
-  label_release_relationship_auto: Auto
-  label_release_relationship_continued: Continued
-  label_release_relationship_initial: Initial
+  label_release_relationship_added: Добавлен
+  label_release_relationship_auto: Авто
+  label_release_relationship_continued: Продолжение
+  label_release_relationship_initial: Начальный
   label_release_start_date: "Дата начала релиза"
-  label_release_trend_end_date: "Trend estimated end date"
+  label_release_trend_end_date: "Оценённая дата конца тренда"
   label_reset: Сбросить
   label_scrum_statistics: Скрам-статистика
   label_select_all: "Выбрать все"
@@ -189,7 +193,7 @@ ru:
   rb_label_timelog_enable: Разрешить
   rb_project_settings_update_error: "Ошибка при сохранении настроек"
   rb_project_settings_updated: "Настройки сохранены"
-  rb_release_burnup_enabled: "Enable release burnup chart (EXPERIMENTAL)"
+  rb_release_burnup_enabled: "График выгорания релизов (ТОЛЬКО ДЛЯ ЭКСПЕРИМЕНТОВ)"
   rb_show_burndown_in_sidebar: "Показывать график выполнения в боковой колонке задач"
   rb_show_project_name: "Показывать имя проекта в бэклоге"
   rb_task_cards_stories_then_tasks: "Сначала все истории, затем все задачи"

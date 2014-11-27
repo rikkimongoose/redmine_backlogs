@@ -2,6 +2,10 @@
 en-GB:
   backlogs_active: active
   backlogs_any: any
+  backlogs_redmine_version: "Redmine version"
+  backlogs_version: "Backlogs version"
+  backlogs_plugin_not_prop_setup: "Backlogs was not properly set up"
+  backlogs_plugin_migration_not_executed: "Plugin migrations have not been executed"
   backlogs_auto_assign_task: "Auto assign task to current user"
   backlogs_burndown_print_height: "Burndown print height"
   backlogs_burndown_print_width: "Burndown print width"
